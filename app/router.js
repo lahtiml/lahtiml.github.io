@@ -6,6 +6,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('about');
+  this.route('registry');
+  this.route('wedding-pics');
 });
 
 export default Router;
