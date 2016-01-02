@@ -3,6 +3,6 @@ import weddingPhotos from 'melanie-and-scott/utils/wedding-photos';
 
 export default Ember.Route.extend({
   model() {
-    return weddingPhotos(1,517);
+    return weddingPhotos;
   }
 });
